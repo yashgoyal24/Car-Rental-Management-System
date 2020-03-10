@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial,Helvetica,sans-serif;
+}
+.column{
+	width: 25%;
+	float: left;
+	padding: 25px 5px;
+}
+.row::after{
+content:"";
+display: table;
+clear: both;
+}
+.card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 350px;
+	margin: auto;
+	background-color: #ddff99;
+	border-radius: 5px;
+	padding-bottom: 13px;
+	padding: 10px;
+}
+.card .img{
+	width:100%;
+	height: 150px;
+}
+h1{
+	text-align: center;
+	color: blue;
+}
+h3
+{
+	color: green;
+}
+.card p{
+	text-color:blue;
+}

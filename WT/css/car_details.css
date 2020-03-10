@@ -1,0 +1,116 @@
+h1{
+	padding-left: 50px;
+	margin: 10px 0px;
+}
+.image{
+	width: 60%;
+	height: 400px;
+}
+.img1{
+	margin: auto;
+	height:400px;
+	display: block;
+}
+h2{
+	color: #0066ff;
+	padding-left: 100px;
+}
+h3{
+	padding-left: 5px;
+	background-color: darkgrey;
+	margin: 0;
+}
+p.name{
+	margin: 0;
+	padding: 2px;
+	font-size: 18px;
+}
+.specifications{
+	margin: 5px 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.specs{
+	 border: 1px solid black;
+	 width: 80%;
+	 position: relative;
+	 left: 30px;
+}
+.car_rent_dets{
+	float: right;
+	width: 40%;
+	height: 400px;
+}
+#ckm_title{
+	padding-left: 50px;
+	font-size: 18px;
+	margin: 100px 50px 0 50px;
+}
+#ckm_value{
+	padding-left: 50px;
+	font-size: 40px;
+	color: grey;
+	margin: 0 50px 20px 50px;
+}
+#rent_button{
+	border: 0.1px solid darkgrey;
+	margin: 0 100px;
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+}
+#rent_button:hover{
+	transition:all 0.2s;
+	cursor: pointer;
+	background-color: #4fa2ef;
+}
+.line{
+	margin: 0 10px;
+	border: 1px solid darkgrey;
+}
+.line2{
+	margin: 0;
+	border: 1px solid darkgrey;
+}
+
+.column{
+	width: 25%;
+	float: left;
+}
+.row::after{
+	content:"";
+	display: table;
+	clear: both;
+	overflow-x: scroll;
+	width: auto;
+	white-space: nowrap;
+}
+.card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 300px;
+	margin: auto;
+	background-color: #ddff99;
+	text-align: left;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px 10px;
+}
+.card .img{
+	width: 100%;
+	height: 200px;
+}
+.hire{
+	text-align: center;
+}
+.hire_d_button{
+	margin-top: 5px;
+	width: 100%;
+	border: 0.1px solid darkgrey;
+	height: 30px;
+	font-size: 18px;
+}
+.hire_d_button:hover{
+	transition:all 0.2s;
+	cursor: pointer;
+	background-color: #4fa2ef;
+}

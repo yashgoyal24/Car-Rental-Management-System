@@ -1,0 +1,58 @@
+h1{
+	padding-left: 50px;
+	margin: 10px 0px;
+}
+h3{
+	padding-left: 70px;
+	margin: 10px 0;
+	color: grey;
+}
+.line{
+	margin: 0 10px;
+	border: 1px solid darkgrey;
+}
+.column{
+	width: 50%;
+	float: left;
+	padding: 25px 5px;
+}
+.row::after{
+	content:"";
+	display: table;
+	clear: both;
+	overflow-x: scroll;
+	width: auto;
+	white-space: nowrap;
+}
+.card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+	max-width: 300px;
+	margin: auto;
+	background-color: #99ffff;
+	text-align: left;
+	border-radius: 10px;
+	padding-bottom: 13px;
+	padding-left: 5px;
+}
+.card .img{
+	width:50px;
+	height: 100px;
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+h2.borrower{
+	padding-left: 80px;
+}
+div.lent, div.borrow{
+	width: 100%;
+	float: left;
+}
+.row::after{
+	content:"";
+	display: table;
+	clear: both;
+	overflow-x: scroll;
+    width: auto;
+    white-space: nowrap;
+}

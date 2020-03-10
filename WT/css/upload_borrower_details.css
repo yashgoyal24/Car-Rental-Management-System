@@ -1,0 +1,26 @@
+#bor_details_form{
+    padding: 10px 50px;
+    font-size: 15px;
+}
+.form_entry{
+    padding: 10px;
+    position: relative;
+}
+.common_input_class{
+    padding: 2px;
+    position: absolute;
+    left: 150px;
+    width: 300px;
+}
+.radio_class{
+    display: inline-block;
+    padding: 0;
+}
+.bracket_text{
+    font-style: italic;
+    font-size: 10px;
+}
+fieldset{
+    display: inline-block;
+    width: 400px;
+}

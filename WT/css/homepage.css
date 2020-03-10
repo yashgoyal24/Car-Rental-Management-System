@@ -1,0 +1,106 @@
+#booking{
+  background: linear-gradient(to bottom left, #6daae3, #fff);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 100px 0px;
+  box-shadow: 0px 5px 5px #b3bfc9;
+}
+#book_car form{
+  height: 100%;
+  box-sizing: border-box;
+  float: right;
+  padding: 20px;
+}
+#book_car form>*{
+  width: 100%;
+  box-sizing: border-box;
+}
+#book_car form input{
+  padding: 10px;
+  margin: 5px 0px;
+  font-size: 0.8em;
+  border: 1px solid #879aa8;
+}
+#book_car form label{
+  margin: auto 0;
+}
+.buttons{
+  cursor: pointer;
+  padding: 0;
+  margin-top: 30px;
+  min-width: 100px;
+  border: 2px solid #879aa8;
+  background: #c9d8f0;
+  transition: all 0.2s ease;
+}
+.buttons:hover{
+  background: #5daae3;
+}
+.buttons:hover a{
+  color: #dde6ed;
+}
+.buttons a{
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+#book_car form p{
+  margin: 5px;
+  font-size: 0.75em;
+}
+#resultsdiv>*{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 !important;
+}
+#results{
+  border: 1px solid black;
+  position: absolute;
+  background: #ced8eb;
+}
+#results p{
+  margin: 0;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 5px;
+  border-top: 1px solid #a7adb8;
+}
+#results p:first-of-type{
+  border: 0px;
+}
+#results p:hover{
+  background: #aecce8;
+}
+.sho{
+  display: block;
+}
+.buts{
+  cursor: pointer;
+  border: 1px solid #879aa8;
+  transition: all 0.2s ease;
+  box-shadow: 2px 2px 5px #b3bfc9;
+  font-size: 1em !important;
+}
+.buts:hover{
+  background: #5daae3;
+  color: #dde6ed;
+}
+.main_content{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.service{
+  display: inline-block;
+  max-width: 500px;
+  background: #a0c7e8;
+  margin: 5px;
+  border: 1px solid #88a6bf;
+  box-shadow: 5px 5px 5px #88a6bf;
+  border-radius: 10px;
+  text-align: justify;
+  padding: 5px 15px;
+}
